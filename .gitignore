@@ -1,0 +1,55 @@
+# Python compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environments
+env/
+venv/
+
+# Environment variables file
+.env
+
+# Django SQLite database
+db.sqlite3
+
+# Django migrations (except for __init__.py)
+!**/migrations/*.py
+!**/migrations/__init__.py
+
+# Django static and media files
+staticfiles/
+static/
+media/
+
+# VSCode and IDE files
+.vscode/
+.idea/
+
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.webp
+
+# Thumbnails
+*_thumb.*
+
+# Backup and temporary files
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Docker-related files
+docker-compose.override.yml
+.dockerignore
+
+# Logs
+*.log
